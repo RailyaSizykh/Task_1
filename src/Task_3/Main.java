@@ -7,6 +7,6 @@ public class Main {
         int t = list[list.length-1];
         list[list.length-1] = list[0];
         list[0] = t;
-        System.out.println(list[0] + list[2]);
+        System.out.println(list[0] + list[list.length-3]);
     }
 }
