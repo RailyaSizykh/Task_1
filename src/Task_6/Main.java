@@ -27,7 +27,7 @@ public class Main {
                 }
                 break;
                 case 2: {
-                    System.out.println("Единица измерения - миля");
+                    System.out.println("Единица измерения - миля. Введите число");
                     //Пользователю предлагается ввести количество выбранных единиц
                     double miles = scanner.nextDouble();
                     System.out.println("Вы ввели " + miles + " миль");
@@ -37,23 +37,23 @@ public class Main {
                 }
                 break;
                 case 3: {
-                    System.out.println("Единица измерения - ярд");
+                    System.out.println("Единица измерения - ярд. Введите число");
                     //Пользователю предлагается ввести количество выбранных единиц
-                    double miles = scanner.nextDouble();
-                    System.out.println("Вы ввели " + miles + " ярд");
-                    System.out.println("Метры: " + miles * 0.9144);
-                    System.out.println("Мили: " + miles * 0.000568);
-                    System.out.println("Футы: " + miles * 3);
+                    double yard = scanner.nextDouble();
+                    System.out.println("Вы ввели " + yard + " ярд");
+                    System.out.println("Метры: " + yard * 0.9144);
+                    System.out.println("Мили: " + yard * 0.000568);
+                    System.out.println("Футы: " + yard * 3);
                 }
                 break;
                 case 4: {
-                    System.out.println("Единица измерения - фут");
+                    System.out.println("Единица измерения - фут. Введите число");
                     //Пользователю предлагается ввести количество выбранных единиц
-                    double miles = scanner.nextDouble();
-                    System.out.println("Вы ввели " + miles + " фут");
-                    System.out.println("Метры: " + miles * 0.3048);
-                    System.out.println("Ярды: " + miles * 0.333333);
-                    System.out.println("Мили: " + miles * 12000);
+                    double fut = scanner.nextDouble();
+                    System.out.println("Вы ввели " + fut + " фут");
+                    System.out.println("Метры: " + fut * 0.3048);
+                    System.out.println("Ярды: " + fut * 0.333333);
+                    System.out.println("Мили: " + fut * 12000);
                 }
                 break;
                 default: {
@@ -78,7 +78,7 @@ public class Main {
                 }
                 break;
                 case 2: {
-                    System.out.println("Единица измерения - фунт");
+                    System.out.println("Единица измерения - фунт.Введите число");
                     //Пользователю предлагается ввести количество выбранных единиц
                     double funt = scanner.nextDouble();
                     System.out.println("Вы ввели " + funt + " фунт");
@@ -88,7 +88,7 @@ public class Main {
                 }
                 break;
                 case 3: {
-                    System.out.println("Единица измерения - унция");
+                    System.out.println("Единица измерения - унция. Введите число");
                     //Пользователю предлагается ввести количество выбранных единиц
                     double unc = scanner.nextDouble();
                     System.out.println("Вы ввели " + unc + " унций");
@@ -98,7 +98,7 @@ public class Main {
                 }
                 break;
                 case 4: {
-                    System.out.println("Единица измерения - карат");
+                    System.out.println("Единица измерения - карат. Введите число");
                     //Пользователю предлагается ввести количество выбранных единиц
                     double karat = scanner.nextDouble();
                     System.out.println("Вы ввели " + karat + " карат");
