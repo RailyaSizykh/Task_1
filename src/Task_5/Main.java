@@ -14,24 +14,31 @@ public class Main {
         char c = sc.next().charAt(0);
 
         // В зависимости от символа вывести в консоль результат выполнения соответствующей арифметической операции
-        double res = 0;
+        double res;
         switch (c) {
             case '+':
                 res = a + b;
+                System.out.println("Результат " + res);
                 break;
             case '-':
                 res = a - b;
+                System.out.println("Результат " + res);
                 break;
             case '*':
                 res = a * b;
+                System.out.println("Результат " + res);
                 break;
             case '/':
+                if (b == 0) {
+                    System.out.println("Деление на 0 запрещено");
+                    break;
+                }
                 res = a / b;
+                System.out.println("Результат " + res);
                 break;
                 default:
-                System.out.println("Не корректный символ");
+                System.out.println("Введен не корректный символ");
                 break;
                     }
-        System.out.println("Результат " + res);
-    }
+                   }
 }
