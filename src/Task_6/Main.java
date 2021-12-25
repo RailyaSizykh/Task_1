@@ -21,9 +21,9 @@ public class Main {
                     //Пользователю предлагается ввести количество выбранных единиц
                     double meters = scanner.nextDouble();
                     System.out.println("Вы ввели " + meters + " м");
-                    System.out.println("Мили: " + meters * 0.006);
-                    System.out.println("Ярды: " + meters * 10.94);
-                    System.out.println("Футы: " + meters * 32.81);
+                    System.out.println("Мили: " + meters * 0.006213);
+                    System.out.println("Ярды: " + meters * 1.09361);
+                    System.out.println("Футы: " + meters * 3.28084);
                 }
                 break;
                 case 2: {
